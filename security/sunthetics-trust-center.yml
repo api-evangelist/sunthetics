@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.sunthetics.io/trust-center
+url: https://www.sunthetics.io/trust-center
+certifications:
+- SOC 2
+- GDPR
+compliance_monitoring: Vanta (continuous monitoring)
+infrastructure: AWS-hosted; encryption in transit and at rest; MFA and SSO for access control; third-party penetration testing
+contact: compliance@sunthetics.io
+evidence:
+- source: https://www.sunthetics.io/trust-center
+  keywords:
+  - soc 2
+  - gdpr
+  - vanta
+  - trust center
+  - penetration testing

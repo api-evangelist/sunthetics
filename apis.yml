@@ -1,7 +1,30 @@
 aid: sunthetics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunthetics.png
 name: Sunthetics
-description: Sunthetics is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sunthetics is an AI/ML platform for optimizing chemical experiments and R&D
+  processes. Its cloud-based, no-code product SuntheticsML applies Bayesian
+  optimization and design-of-experiments (DOE) techniques to small datasets,
+  helping scientists identify the variables that matter most and recommend the
+  highest-impact next experiments. The company reports up to 99% prediction
+  accuracy, up to a 97% reduction in the number of experiments versus
+  traditional methods, and materially faster optimization campaigns across
+  reaction-agnostic chemistry and materials workflows. Sunthetics is a Techstars
+  portfolio company and was added to the API Evangelist network as a company
+  profile. As of this enrichment pass the company publishes no public API,
+  developer portal, or OpenAPI specification; its product is delivered as a web
+  application at sunthetics-app.com.
 url: https://raw.githubusercontent.com/api-evangelist/sunthetics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Chemistry
+- Research and Development
+- Design of Experiments
+- Bayesian Optimization
+- Materials Science
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,32 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sunthetics.io/
+  url: https://www.sunthetics.io/
+- type: Blog
+  url: https://www.sunthetics.io/innovation-and-insights
+- type: Support
+  url: https://www.sunthetics.io/contact-us
+- type: Login
+  url: https://www.sunthetics-app.com/
+- type: TermsOfService
+  url: https://www.sunthetics.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.sunthetics.io/privacy-policy
+- type: TrustCenter
+  url: https://www.sunthetics.io/trust-center
+- type: Compliance
+  url: https://www.sunthetics.io/trust-center
+- type: Security
+  url: https://www.sunthetics.io/trust-center
+- type: TrustCenter
+  name: Trust Center (artifact)
+  url: security/sunthetics-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/sunthetics-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sunthetics-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
